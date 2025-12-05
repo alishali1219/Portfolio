@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Alisha Li's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-family: Raleway, sans-serif;
+        font-size: 64px;
+      }
+
+      h2 {
+        font-family: Raleway, sans-serif;
+        font-size: 48px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      h3 {
+        font-size: 32px;
+        line-height: 1.5;
+        font-family: Nunito, sans-serif;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: Nunito, sans-serif;
+        text-align: left;
+      }
+
+      ol {
+        font-size: 18px;
+        line-height: 2;
+        font-family: Nunito, sans-serif;
+        text-align: left;
+        padding: 20px;
+      }
+
+      .main-container {
+        width: 1440px;
+        margin: 0 auto;
+        background-color: black;
+      }
+
+      .content {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: black;
+      }
+
+      .navbar {
+        width: 100%;
+        background-color: #1C1C1C;
+        position: sticky;
+        top: 0;
+      }
+
+      .navbar-content {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        /*https://www.w3schools.com/cssref/css3_pr_justify-content.php*/
+        align-items: center;
+      }
+
+      .logo {
+        height: 80px;
+        width: auto;
+      }
+
+      .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+      }
+
+      .nav-link {
+        text-decoration: none;
+        color: #10D4FB;
+        font-size: 18px;
+        font-family: Nunito, sans-serif;
+      }
+
+      .nav-link:hover {
+        color: #5F13FD;
+      }
+
+      .hero {
+        width: 1440px;
+        height: 350px;
+        background-color: #52B69A;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+      }
+
+      .hero-content {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .hero-img {
+        height: 350px;
+        object-fit: contain;
+      }
+
+      .grid-4x1 {
+        width: 1200px;
+        margin-bottom: 40px;
+      }
+
+      .grid-4x1-row {
+        display: flex;
+        gap: 20px;
+      }
+
+      .grid-4x1-item {
+        width: 285px;
+        height: 200px;
+        background-color: #e74c3c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+      }
+
+      .divider-gradient {
+        width: 1440px;
+        height: 6px;
+        margin: 40px auto;
+        background: linear-gradient(to right, #10D4FB, #5F13FD);
+        /*https://www.w3schools.com/css/css3_gradients.asp*/
+        border-radius: 4px;
+      }
+
+      .section {
+        width: 1200px;
+        height: auto;
+        margin: 40px auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 24px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="navbar">
+        <div class="navbar-content">
+          <img src="personal logo.png" alt="Alisha Li Logo" class="logo">
+          <ul class="nav-links">
+            <li><a href="javascript:void(0)" class="nav-link">About</a></li>
+            <li><a href="javascript:void(0)" class="nav-link">Projects</a></li>
+            <li><a href="https://docs.google.com/document/d/1BhlfwDV00OhXJhnAbEnIIv7aJG2-8LD1X-_DnT-9v4Y/edit?tab=t.0" class="nav-link" target="_blank">Resume</a></li>
+            <li><a href="mailto:a537li@uwaterloo.ca" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Island Funds</h1>
+            <h3>Your Money Goals, One Island at a Time.</h3>
+            <p><strong>Role:</strong> Visual Design</p>
+            <p><strong>Software:</strong> Figma</p>
+            <p><strong>Timeline:</strong> 11 hour design-a-thon</p>
+          </div>
+          <img src="Island Funds Preview Mockup.png" alt="Project Preview" class="hero-img">
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="grid-4x1">
+          <div class="grid-4x1-row">
+            <div class="grid-4x1-item">Column 1</div>
+            <div class="grid-4x1-item">Column 2</div>
+            <div class="grid-4x1-item">Column 3</div>
+            <div class="grid-4x1-item">Column 4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>
+          Table of Contents
+        </h2>
+        <ol>
+          <li>The Problem</li>
+          <li>The Solution</li>
+          <li>Reflection</li>
+          <li>Impact</li>
+          <li>Key Takeaways</li>
+        </ol>
+        <p>
+          The uXperience Design-a-thon, hosted by UW Stratford and SunLife, challenged teams to address financial stress among millennials. So, my team and I designed Island Funds, a gamified app that helps users build healthy money habits through collaborative goal-setting and personalized financial literacy.
+        </p>
+      </div>
+      <div class="divider-gradient"></div>
+
+      <div class="section">Section 2</div>
+      <div class="divider-gradient"></div>
+
+      <div class="section">Section 3</div>
+      <div class="divider-gradient"></div>
+
+      <div class="section">Section 4</div>
+      <div class="divider-gradient"></div>
+
+      <div class="section">Section 5</div>
+      <div class="divider-gradient"></div>
+
+      <div class="section">Section 6</div>
+
+    </div>
+  </body>
+</html>
