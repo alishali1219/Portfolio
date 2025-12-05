@@ -59,7 +59,6 @@
         margin-bottom: 25px;
       }
 
-
       .main-container {
         width: 1440px;
         margin: 0 auto;
@@ -103,6 +102,7 @@
 
       .nav-link {
         text-decoration: none;
+        /* main link style */
         color: #10D4FB;
         font-size: 24px;
         font-family: Nunito, sans-serif;
@@ -182,9 +182,7 @@
         display: block;
         width: max-content;
         margin: 20px auto 0 auto;
-        padding: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 15px 30px;
         background-color: transparent;
         color: white;
         text-decoration: none;
@@ -284,6 +282,7 @@
       <div class="section">
         <h2>Table of Contents</h2>
         <ol>
+          <!-- TOC links now scroll to the proper sections -->
           <li><a href="#problem" class="toc-link">The Problem</a></li>
           <li><a href="#solution" class="toc-link">The Solution</a></li>
           <li><a href="#reflection" class="toc-link">Reflection</a></li>
@@ -295,14 +294,16 @@
 
       <div class="divider-gradient"></div>
 
-      <div class="section">
+      <!-- Added ID for TOC navigation -->
+      <div class="section" id="problem">
         <h2>The Problem</h2>
         <p>For many millennials, managing money feels overwhelming. Financial advice is often confusing, resources are scattered, and there's little motivation to stay on track. Despite growing stress around debt and saving, there’s no accessible platform that makes financial literacy engaging, social, and easy to stick with.</p>
       </div>
 
       <div class="divider-reverse-gradient"></div>
 
-      <div class="section">
+      <!-- Added ID for TOC navigation -->
+      <div class="section" id="solution">
         <h2>The Solution</h2>
         <p>Introducing Island Funds, the app we designed to help millennials manage financial stress and build financial literacy through gamified, collaborative experiences that make learning about money engaging and approachable.</p>
         <a href="https://www.figma.com/design/A6r0m0RbboRCkz4Z3Dei9N/SunLife-Design-a-thon?node-id=0-1&p=f&t=y7t1vtJ3krTHOxUz-0" target="_blank" class="button">View in Figma</a>
@@ -326,7 +327,7 @@
             <img src="Set Your Goal.png" alt="Set your goal page">
           </div>
           <div class="grid-item">
-            <img src="Goal Set.png" alt="Goat set confirmation">
+            <img src="Goal Set.png" alt="Goal set confirmation">
           </div>
           <div class="grid-item">
             <img src="Progress.png" alt="Goal progress">
@@ -336,16 +337,13 @@
 
       <div class="divider-gradient"></div>
 
-      <div class="section">
+      <div class="section" id="reflection">
         <h2>Reflection</h2>
         <p>Upon reflection, I realized that our initial design for Island Funds focused heavily on the ideal user journey, where users are motivated to set goals, track progress, and explore financial literacy resources regularly, and overlooked some real-world challenges that could impact adoption and sustained engagement. Here are a few areas that I believe need further development:</p>
         <ul>
           <li><b>Adoption and motivation:</b> While gamification and social features encourage participation, attracting an initial user base may require partnerships with schools, employers, or financial institutions. Early-stage campaigns, incentives, or integrations with existing platforms could help drive engagement.</li>
-
           <li><b>Personalization depth:</b> The current onboarding process tailors content to a user’s stated needs, but financial situations can change quickly. Adding adaptive recommendations that respond to life events, like job changes, unexpected expenses, or new savings goals, would make the app more relevant over time.</li>
-
           <li><b>Collaboration features:</b> Group goals encourage social accountability, but they also introduce challenges such as varying commitment levels and coordination across schedules. Tools for role assignments, reminders, and progress visibility would make teamwork smoother and more effective.</li>
-
           <li><b>Education and accessibility:</b> Some users may lack basic financial knowledge, while others may already be advanced. Including tiered learning resources, beginner-friendly explanations, and interactive modules could make the platform more inclusive and useful for a wider audience.</li>
         </ul>
         <p>This project helped me understand that creating a gamified financial tool is not just about good UI and engaging interactions. It is also about designing systems that build trust, adapt to changing needs, and provide the right incentives to keep users motivated long-term.</p>
@@ -353,29 +351,26 @@
 
       <div class="divider-reverse-gradient"></div>
 
-      <div class="section">
+      <div class="section" id="impact">
         <h2>Impact</h2>
         <p>Although this project was created during a short design-a-thon sprint and did not go through development, it still had a meaningful impact on my growth as a designer. I practiced creating engaging financial literacy experiences, explored ways to gamify saving habits for millennials, and learned how to connect personal finance goals with collaborative community challenges. The process helped me strengthen my skills in UX research, rapid prototyping, and designing for user motivation. Most importantly, it inspired me to think about how design can make financial management feel approachable, empowering, and even fun.</p>
       </div>
 
       <div class="divider-gradient"></div>
 
-      <div class="section">
+      <div class="section" id="takeaways">
         <div class="takeaway">
           <p><b>Gamification can make overwhelming topics approachable</b></p>
           <p>By turning financial tasks into progress-based challenges, we lowered emotional resistance.</p>
         </div>
-
         <div class="takeaway">
           <p><b>Social motivation improves follow-through</b></p>
           <p>Group islands encouraged accountability and made financial conversations less taboo.</p>
         </div>
-
         <div class="takeaway">
           <p><b>Personalization increases relevance</b></p>
           <p>Users were more likely to engage with financial literacy when it was tailored to their needs.</p>
         </div>
-
       </div>
     </div>
   </body>
